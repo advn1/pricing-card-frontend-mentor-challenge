@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+
+.top {
+  width: 720px;
+  height: 230px;
+  padding-left: 50px;
+  padding-top: 45px;
+  border-radius: 5px 5px 0 0;
+  background-color: white;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+
+body {
+  margin: 0;
+  background-color: gray;
+  
+}
+
+.title {
+  margin-top: 0;
+  color: #12b9cc;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #9ecc12;
+  font-size: 21px;
+}
+
+.desc {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #848782;
+}
+
+.bottom {
+  display: flex;
+  width: 720px;
+  height: 290px;
+}
+
+.sub {
+  display: inline-block;
+  background-color: #62b5b4;
+  flex: 50%;
+  border-radius: 0 0 0 8px;
+}
+
+.month-title {
+  color: white;
+  margin-top: 45px;
+  margin-left: 35px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.price {
+  margin-left: 35px;
+  color: #7cebe9;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.dollar {
+  font-size: 40px;
+  color: white;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.price-desc {
+  color: white;
+  margin-left: 35px;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.sign-up {
+  margin-left: 35px;
+  width: 80%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #acde14;
+  background-color: #acde14;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.why-us {
+  display: inline-block;
+  background-color: #69c7c5;
+  flex: 50%;
+  border-radius: 0 0 8px 0;
+}
+
+.why-us-title {
+  color: white;
+  margin-top: 45px;
+  margin-left: 35px;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.benefits {
+  margin-left: 35px;
+}
+
+.benefits p {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.card {
+  margin: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+  transform: scale(1.03)
+}
